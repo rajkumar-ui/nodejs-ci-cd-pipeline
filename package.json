@@ -1,0 +1,26 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "Sample node app for jenkins ci and cd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrHassanMurtaza/nodejs-ci-cd-pipeline.git"
+  },
+  "author": "MrHassanMurtaza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrHassanMurtaza/nodejs-ci-cd-pipeline/issues"
+  },
+  "homepage": "https://github.com/MrHassanMurtaza/nodejs-ci-cd-pipeline#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "mocha": "1.20.1",
+    "supertest": "0.13.0"
+  }
+}
